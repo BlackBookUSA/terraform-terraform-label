@@ -23,7 +23,7 @@ variable "delimiter" {
 }
 
 variable "attributes" {
-  type        = list(string)
+  type        = list(any)
   default     = []
   description = "Additional attributes (e.g. `1`)"
 }
